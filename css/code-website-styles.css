@@ -8,10 +8,15 @@
     display: flex;
     gap: 6%;
     align-items: center;
+    margin-bottom: 40px;
 
     h3 {
         margin-top: 0;
     }
+}
+
+.image-and-text.--flipped {
+    flex-direction: row-reverse;
 }
 
 .image-and-text__image {
